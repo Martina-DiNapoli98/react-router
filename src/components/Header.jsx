@@ -5,32 +5,21 @@ export default function Header() {
         <>
             <header>
                 <nav
-                    class="navbar navbar-expand-sm navbar-light bg-light">
-                    <div class="container">
-                        <a class="navbar-brand" href="#">LOGO</a>
-                        <button
-                            class="navbar-toggler d-lg-none"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#collapsibleNavId"
-                            aria-controls="collapsibleNavId"
-                            aria-expanded="false"
-                            aria-label="Toggle navigation"
-                        >
-                        </button>
-                        <div class="collapse navbar-collapse" id="collapsibleNavId">
-                            <ul class="navbar-nav me-auto mt-2 mt-lg-0">
-                                <li class="nav-item">
-                                    <NavLink class="nav-link active" to="/" aria-current="page">
+                    className="navbar navbar-expand-sm navbar-light bg-light">
+                    <div className="container">
+                        <a className="navbar-brand" href="#">LOGO</a>
+                        <div className="collapse navbar-collapse" id="collapsibleNavId">
+                            <ul className="navbar-nav me-auto mt-2 mt-lg-0">
+                                <li className="nav-item">
+                                    <NavLink className="nav-link" to="/" >
                                         Home
-                                        <span class="visually-hidden">(current)</span>
                                     </NavLink>
                                 </li>
-                                <li class="nav-item">
-                                    <NavLink class="nav-link" to="/AboutUs">Chi Siamo</NavLink>
+                                <li className="nav-item">
+                                    <NavLink className="nav-link" to="/AboutUs">Chi Siamo</NavLink>
                                 </li>
-                                <li class="nav-item">
-                                    <NavLink class="nav-link" to="/Posts">Posts</NavLink>
+                                <li className="nav-item">
+                                    <NavLink className="nav-link" to="/Posts">Posts</NavLink>
                                 </li>
 
                             </ul>

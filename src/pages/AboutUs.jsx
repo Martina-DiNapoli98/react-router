@@ -3,51 +3,13 @@ export default function AboutUs() {
         <>
             <main>
                 <section>
-                    <div className="container">
-                        <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3">
-                            <div className="col d-flex">
-                                <div className="card">
-                                    <div className="card-body">
-                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos excepturi odit magni perferendis obcaecati consectetur, vero non labore itaque atque.
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col">
-                                <div className="card">
-                                    <div className="card-body">
-                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos excepturi odit magni perferendis obcaecati consectetur, vero non labore itaque atque.
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col">
-                                <div className="card">
-                                    <div className="card-body">
-                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos excepturi odit magni perferendis obcaecati consectetur, vero non labore itaque atque.
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col">
-                                <div className="card">
-                                    <div className="card-body">
-                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos excepturi odit magni perferendis obcaecati consectetur, vero non labore itaque atque.
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col">
-                                <div className="card">
-                                    <div className="card-body">
-                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos excepturi odit magni perferendis obcaecati consectetur, vero non labore itaque atque.
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col">
-                                <div className="card">
-                                    <div className="card-body">
-                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos excepturi odit magni perferendis obcaecati consectetur, vero non labore itaque atque.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div className="container p-3">
+                        <h1 className="text-center my-3">
+                            Chi Siamo
+                        </h1>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta distinctio quibusdam, reiciendis, at vero mollitia magnam praesentium porro doloremque nulla in non nam quam est corporis sed quae quasi accusantium inventore, quod earum. Repudiandae veniam, porro assumenda quibusdam illo vitae sequi placeat soluta quae voluptatibus quo commodi nisi! Ad, iure optio nemo quae corporis temporibus perspiciatis aspernatur totam, impedit quam incidunt neque quibusdam. Aperiam nisi tempora quidem quod. Itaque, eaque id! Consequuntur, architecto! Dolorem minima placeat debitis at porro? Debitis iusto ipsam quas consectetur consequuntur mollitia fugiat magnam, amet sint odit consequatur, labore id, sequi nobis iure inventore officia laborum?
+                        </p>
                     </div>
                 </section>
             </main>

@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
         <>
-            <footer className="m-4">
+            <footer className="my-4">
                 <div className="container py-4">
                     <div className="row">
                         <div className="col">
